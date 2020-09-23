@@ -121,6 +121,9 @@ const Container = styled.div`
     svg {
         transition: 0.5s;
     }
+
+    
+    
     .menu-item:hover > svg {
         transform: rotate(180deg);
     }
