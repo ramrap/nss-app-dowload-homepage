@@ -12,7 +12,7 @@ import { motion } from 'framer-motion'
 import { useScrollPosition } from '../../utils/scrollDirection'
 
 
-const logoWhite = '/static/nss.jpeg'
+const logoWhite = '/static/NSSlogoPng.png'
 const logoBlack = '/static/logoBlack.png'
 const HEADER_ITEMS = [
     
