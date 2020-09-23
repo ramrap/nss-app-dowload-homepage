@@ -108,9 +108,9 @@ export default function Outsource(){
                         </div> */}
                         <div className="container">
                             <div className="col-12">
-                            <h1 className="text-white home-heading">We are NSS IITD Tech Team</h1>
+                            <h1 className="text-white home-heading">We NSS-IITD Tech Team</h1>
                             <br/>
-                            <h3 className="text-white home-heading">presents NSS APP</h3>
+                            <h3 className="text-white home-heading">presents NSS-APP</h3>
                             </div>
                             <div className="col"> 
                             
