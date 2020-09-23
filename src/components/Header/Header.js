@@ -12,7 +12,7 @@ import { motion } from 'framer-motion'
 import { useScrollPosition } from '../../utils/scrollDirection'
 
 
-const logoWhite = '/static/NSSlogoPng.png'
+const logoWhite = '/static/NSS-min.png'
 const logoBlack = '/static/logoBlack.png'
 const HEADER_ITEMS = [
     
@@ -175,7 +175,7 @@ export default function Header(props){
     return (
         <Container white={props.white} transparent={navHidden}>
             <motion.div variants={variants} initial="visible" animate={navHidden ? "visible" : "visible"} className={`position-relative d-flex align-items-center ${props.full ? "full" : "container justify-content-between"}`}>
-                <div className="p-3">
+                <div className="p-3gi">
                     <a href="/">
                         <img src={logoWhite} alt="NSS IITD" />
                     </a>
