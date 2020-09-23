@@ -175,7 +175,7 @@ export default function Header(props){
     return (
         <Container white={props.white} transparent={navHidden}>
             <motion.div variants={variants} initial="visible" animate={navHidden ? "visible" : "visible"} className={`position-relative d-flex align-items-center ${props.full ? "full" : "container justify-content-between"}`}>
-                <div>
+                <div className="p-3">
                     <a href="/">
                         <img src={logoWhite} alt="NSS IITD" />
                     </a>
